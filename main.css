@@ -1,0 +1,55 @@
+.pki { /*название класса*/
+  color: red;
+}
+#set {/*название идентификатора*/
+  color: blue;
+}
+ body h3, body h1 {/*название вложенного тега*/
+color: green;
+ }
+ .tn {
+   color: green;
+   text-decoration: underline;/*указывает что и как подчеркивать*/
+ }
+.tn:hover {/*псевдокласс*/
+  color: red;
+  text-decoration: overline;
+  cursor: no-drop;
+}
+.rs:visited {
+  color: black;
+}
+#run {color: blue}
+#run {color: red}
+h1.west {/*позволяет выбрать среди других тегов*/
+  color: grey
+}
+#set::after {/*псевдоэлемент*/
+  content: '123';
+}
+body {
+  background-color: #7f9ab3;/*позволяет менять цвет сайта */
+  background-image: url('http://wallpapers-images.ru/1920x1080/mountains/wallpapers/mountains-wallpapers-1920x1080-0007.jpg');
+  background-repeat: no-repeat;/*ограничивает область картинки по осям*/
+  backround-position: center/*указывает где располагается картинка*/
+}
+.pert {
+  text-align:center;
+  font-size: 15px;/*устанавливает размер шрифта*/
+  font-style:italic;/*устанавливает наклон шрифта*/
+  font-weight:bold;/*устанавливает жирность шрифта*/
+  font-family:'';/*указывает стиль текста*/
+  word-spacing: 15px;/*указывает расстояние между словами*/
+  line-height: 30px;/*указывает расстояние между строками*/
+
+}
+#losan {
+background: yellow;
+height: 200px;
+width:50%;
+border: 2px solid black;
+border-radius:15px;
+margin: 20px;/*внешний отступ*/
+padding: 2px;/*внутрений отступ*/
+
+}
