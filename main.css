@@ -43,6 +43,12 @@ body {
   line-height: 30px;/*указывает расстояние между строками*/
 
 }
+.bark {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background: red;
+}
 #losan {
 background: yellow;
 height: 200px;
@@ -51,5 +57,9 @@ border: 2px solid black;
 border-radius:15px;
 margin: 20px;/*внешний отступ*/
 padding: 2px;/*внутрений отступ*/
+float: left;
+}
 
+#polir {
+  float: left;
 }
