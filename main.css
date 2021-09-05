@@ -28,6 +28,7 @@ h1.west {/*позволяет выбрать среди других тегов*
   content: '123';
 }
 body {
+  height: 2000px;
   background-color: #7f9ab3;/*позволяет менять цвет сайта */
   background-image: url('http://wallpapers-images.ru/1920x1080/mountains/wallpapers/mountains-wallpapers-1920x1080-0007.jpg');
   background-repeat: no-repeat;/*ограничивает область картинки по осям*/
@@ -62,4 +63,38 @@ float: left;
 
 #polir {
   float: left;
+}
+#source {
+  width: 50;
+  padding: 20px;
+  background: #fafafa;
+  border: 1px;
+  float: left;
+  margin-left: 5%;
+  position: relative;/*позиция блока*/
+  bottom: -50px;/*обозначает на сколько отодвигать блок*/
+}
+
+#zen {
+  width: 50;
+  padding: 20px;
+  background: #fafafa;
+  border: 1px;
+  float: left;
+  margin-left: 5%;
+  position: relative;/**/
+  bottom: -10px;/**/
+}
+#in {
+  background: blue;
+  color:#fff;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  position: fixed;
+  left: 20px;
+  top: 50px;
+
 }
