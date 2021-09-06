@@ -96,5 +96,22 @@ float: left;
   position: fixed;
   left: 20px;
   top: 50px;
+}
+
+#nav {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 50%;
+  margin-left: 25;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+#nav li {
+display: inline;
+background: #fafafa;
+border: 1px solid silver;
+padding: 0 20px;
 
 }
