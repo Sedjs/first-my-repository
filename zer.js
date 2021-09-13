@@ -62,6 +62,18 @@ else if (date > 50) {
   console.log("Извините, но вы не подходите");
 }
 
-function brain() {
-  
+function brain(slovo) {
+  console.log(slovo + "Знание - сила!");
 }
+
+brain("fact ");
+
+ function call(digital) {
+  var nel = 7;
+  var lot = nel + digital;
+  return lot;//возвращает переменную;
+
+ }
+ var mat = call(34);//при возвращении переменной нужно помещать в другую переменную;
+
+ console.log(mat);
