@@ -77,3 +77,10 @@ brain("fact ");
  var mat = call(34);//при возвращении переменной нужно помещать в другую переменную;
 
  console.log(mat);
+
+ var lin=0;
+function clickButton(noz) {
+  lin++;
+  noz.innerHTML = "povtor " + lin;//позволяет обращаться к HTML;
+  alert('close');
+}
