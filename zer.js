@@ -84,3 +84,27 @@ function clickButton(noz) {
   noz.innerHTML = "povtor " + lin;//позволяет обращаться к HTML;
   alert('close');
 }
+//var pik = 0;
+//var lon = setInterval(timer,1000);//встроенная функция времени;
+
+//function timer() {
+  //pik++;
+  //console.log('time'+pik);
+  //if (pik == 5) {
+   //clearsetInterval(lon);
+  //}
+//}
+
+setTimeout(function(){
+  console.log('Time end?');
+}, 7000);
+
+class zon { //обьевление класса;
+  constructor(place, mit){
+    this.place = place;
+    this.mit = mit;
+  }
+}
+
+var hain = new zon('earth', 21);//обьевление обьекта ;
+console.log(hain.place);
