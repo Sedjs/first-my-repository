@@ -1,106 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Димка Седов">
-    <meta name="description" content="тестовая">
-    <meta name="keyh1words" content="тест">
-    <title>без понятия</title>
-    <link rel="stylesheet" href="main.css"><!--делает ссылку на файл указывать в шапке-->
-  </head>
-  <body class="pki"> <!--class устанавливает связь для css-->
-    <h1 class="west"> просто заголовок</h1>
-    <h2>второй <big>2</big></h2><!--делает чуть больше-->
-    <h3>третий <small>3</small></h3><!--делает чуть меньше-->
-    <h4>четвертый</h4>
-    <p id="set">Text</p> <!--если нужно перенести на следующую строку, id нужно для идентефикаци -->
-    <div id="losan" class="bark">
-      supreme
-    </div><!--блочный тег-->
-    <div id="polir" class="bark">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+   <div id="log">
+     <span>Electro</span>
+   </div>
+   <div id="pin">
+     <ul>
+       <li class="vid">Меню</li>
+       <li ><input class="nt" type="button" value='Оборудование'></li>
+       <li ><input class="nt" type='button' value='Расходные материалы'></li>
+       <li ><input class="nt" type='button' value='Инструменты'></li>
+       <li><input class="nt" type='button' value='Информация о нас'></li>
+       <li><input class="nt" type='button' value='Контакты'></li>
+     </ul>
+   </div>
+    </header>
 
-    </div>
-    <div id='source'>начало</div>
-    <div id="zen">заголовок</div>
-    <div id="in">i</div>
-    <p>rew <b>fet</b> </p><!--жирный шрифт-->
-    <p><i>курсив</i></p><!--курсивный шрифт-->
-    <p><strike>слова</strike></p><!--делает текст перечеркнутым-->
-    H<sub>2</sub>O<!--делает нижний регистр-->
-    a<sup>2</sup><br><hr><!--sup делает верхний регистр, br перенос текста на новую строку, hr создает линию-->
-    <abbr title="язык гипертекстовой разметки">HTML</abbr><!--abbr аббветура в title информация появляющиеся при наведении мышки ее можно добавлять  в любой тег-->
-    <p class="pert">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-     <address>
-       seatlle USA
-     </address>
-     <pre>function some(){
-       return "Some"
-     }
-   </pre><!--сохраняет все отступы, пробелы-->
-   <code>let x = 0;</code><br><!--стиль под код-->
-    <ol start="2" type="a"><!--start атрибут который определяет с какой цифры начинается список, type в каком виде исчеслесления будет список-->
-     <li>купи хлеб</li>
-     <li>мороженое</li>
-     <li>йогурт</li><!--для каждого отдельного пункта списка-->
-
-   </ol><!--открывает список-->
-   <ul id="nav">
-     <li>купи хлеб</li>
-     <li>мороженое</li>
-     <li>йогурт</li>
-
-   </ul><!--непронумерованые списки2-->
-   <a href="https://google.com" target="_blank" class="tn">Перейти куда-то</a><!--тег а не работает без атрибута href, в внутри атрибута вставляется сама ссылка,target указывает как открывать ссылку-->
-   <a href="tyr.html">ссылка на другую страницу</a><!--в атрибут можно указать относитедльную ссылку на страницу-->
-   <a href="#ners1" class="rs">вниз</a><!--ссылка якорь действует внутри страницы для включения ссылки нужно написать # -->
-   <a name="ners1"></a><!--сама ссылка якорь в ней указывается имя якоря-->
-   <p>
-   <img src="https://i.pinimg.com/originals/d1/d5/37/d1d537dc25d42b824598a30f2aa0427c.jpg" width="100" alt="долина"><!-- img тег для картинки в атрибуте src указывается адрес картинки атрибут width указывает размер картинки в процентах или в пикселях alt-добавляет слово вместо картинки если она не прогрузилась-->
-   <p/>
-   <table border="1" width="100px--">
-    <tr>
-      <th>фамилия
-      <th/>
-        <th>имя
-      <th/>
-      <tr/>
-      <tr>
-        <td/>
-        димон
-        <td/>
-        <td>макаров
-          <td/>
-<tr/>
-
-
-   <table/>
-<script src="js/myScript.js"></script>
-<div>просто текст </div>
-<span>текст<span/>
-  <form action="">
-    <label>введите имя</label>
-     <input type="text" placeholder="Введите что-нибудь!!!" value="надпись" maxlength="7" id="run">
-     <input type="password"><br>
-     <input type="checkbox"><br><br>
-     <input type="button">
-       <textarea placeholder="Введите информацию" maxlength="30">
-       </textarea>
-       <button>поиск</button>
-   <form/><br></br>
-<select multiple><!--позволяет выбирать сразу несколько вариантов-->
-  <option>евро</option>
-  <option selected>доллар</option>
-  <option>рубль</option>
-  <option disabled>юань</option>
-
-</select><br></br>
-<progress max="100" value="77"></progress>
-<details>
-<summary>Подробнее</summary>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  <details>
-  <noscript>Включите Javascript </noscript><!--включается только при отключенном Javascript-->
-  <script  src="">
-  </script><!--подключает javascript код-->
-  </body>
+</body>
 </html>

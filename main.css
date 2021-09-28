@@ -1,117 +1,40 @@
-.pki { /*название класса*/
-  color: red;
+#log {
+  text-align:center;
+  font-size:50px;
+  color:blue;
+  background-color:black;
+  height:130px;
+  width:100%;
+
 }
-#set {/*название идентификатора*/
-  color: blue;
+#pin {
+  border:solid;
+  width:25%;
+  background-color:green;
+  margin:10px;
+  border-radius:20px;
+  height:290px;
+  font-size:20px;
 }
- body h3, body h1 {/*название вложенного тега*/
-color: green;
- }
- .tn {
-   color: green;
-   text-decoration: underline;/*указывает что и как подчеркивать*/
- }
-.tn:hover {/*псевдокласс*/
-  color: red;
-  text-decoration: overline;
-  cursor: no-drop;
+.vid {
+  text-align:center;
+  font-size:30px;
+  border:solid;
+  padding:unset;
+  width:99%;
+  display:block;
 }
-.rs:visited {
-  color: black;
+.nt {
+  border-radius: 20px;
+  font-size:20px;
+  transition-duration:500ms;
 }
-#run {color: blue}
-#run {color: red}
-h1.west {/*позволяет выбрать среди других тегов*/
-  color: grey
-}
-#set::after {/*псевдоэлемент*/
-  content: '123';
+.nt:hover {
+  font-size:30px;
+  color:blue;
+  transition-duration:500ms;
+  background-color:red;
 }
 body {
-  height: 2000px;
-  background-color: #7f9ab3;/*позволяет менять цвет сайта */
-  background-image: url('http://wallpapers-images.ru/1920x1080/mountains/wallpapers/mountains-wallpapers-1920x1080-0007.jpg');
-  background-repeat: no-repeat;/*ограничивает область картинки по осям*/
-  backround-position: center/*указывает где располагается картинка*/
-}
-.pert {
-  text-align:center;
-  font-size: 15px;/*устанавливает размер шрифта*/
-  font-style:italic;/*устанавливает наклон шрифта*/
-  font-weight:bold;/*устанавливает жирность шрифта*/
-  font-family:'';/*указывает стиль текста*/
-  word-spacing: 15px;/*указывает расстояние между словами*/
-  line-height: 30px;/*указывает расстояние между строками*/
-
-}
-.bark {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
-  background: red;
-}
-#losan {
-background: yellow;
-height: 200px;
-width:50%;
-border: 2px solid black;
-border-radius:15px;
-margin: 20px;/*внешний отступ*/
-padding: 2px;/*внутрений отступ*/
-float: left;
-}
-
-#polir {
-  float: left;
-}
-#source {
-  width: 50;
-  padding: 20px;
-  background: #fafafa;
-  border: 1px;
-  float: left;
-  margin-left: 5%;
-  position: relative;/*позиция блока*/
-  bottom: -50px;/*обозначает на сколько отодвигать блок*/
-}
-
-#zen {
-  width: 50;
-  padding: 20px;
-  background: #fafafa;
-  border: 1px;
-  float: left;
-  margin-left: 5%;
-  position: relative;/**/
-  bottom: -10px;/**/
-}
-#in {
-  background: blue;
-  color:#fff;
-  text-align: center;
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
-  border-radius: 50%;
-  position: fixed;
-  left: 20px;
-  top: 50px;
-}
-
-#nav {
-  list-style: none;
-  display: block;
-  float: left;
-  width: 50%;
-  margin-left: 25;
-  text-align: center;
-  margin-bottom: 50px;
-
-}
-#nav li {
-display: inline;
-background: #fafafa;
-border: 1px solid silver;
-padding: 0 20px;
-
+  background-color:blue;
 }
