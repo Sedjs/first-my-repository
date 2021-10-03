@@ -38,3 +38,16 @@
 body {
   background-color:blue;
 }
+#t1 {
+  font-size:34px;
+  margin-left:680px;
+}
+#t2 {
+  font-size:28px;
+  margin-left:400px;
+}
+#tab {
+  border:solid;
+  background-color:white;
+  width:90px
+}
