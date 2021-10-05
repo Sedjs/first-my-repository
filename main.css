@@ -61,12 +61,18 @@ body {
 #fk {
   font-size:45px;
   text-decoration:none;
+  transition-duration:500ms;
+  color:black;
+ }
+#fk:hover {
+  color:green;
+  transition-duration:500ms;
 }
 #tab {
   border:solid;
   background-color:white;
   width:270px;
   border-radius:20px;
-
+  position:fixed;
   margin-top:-1679px;
 }
