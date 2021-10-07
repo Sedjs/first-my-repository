@@ -2,8 +2,9 @@
 
 
   background-color:black;
-  height:130px;
+  height:100px;
   width:100%;
+  position:fixed;
 
 }
 #log1 {
@@ -25,9 +26,9 @@
 }
 #pin {
   border:solid;
-  width:25%;
+  width:30%;
   background-color:green;
-  margin:10px;
+  margin-top:130px;
   border-radius:20px;
   height:290px;
   font-size:20px;
@@ -41,18 +42,27 @@
   display:block;
 }
 .nt {
-  border-radius: 20px;
-  font-size:20px;
+  border-radius: 10px;
+  font-size:30px;
   transition-duration:500ms;
+  text-decoration:none;
+  background-color:white;
+  color:black;
 }
 .nt:hover {
-  font-size:30px;
+  font-size:35px;
   color:blue;
   transition-duration:500ms;
   background-color:red;
 }
-body {
-  background-color:blue;
+html {
+  background-image:url(https://c.pxhere.com/photos/48/30/photo-94841.jpg!d);
+  background-position:center center;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -o-background-size:cover:
+  background-size : cover;
 }
 #t1 {
   font-size:34px;
@@ -90,5 +100,6 @@ body {
   width:270px;
   border-radius:20px;
   position:fixed;
-  margin-top:-1679px;
+  margin-top:-1700px;
+
 }
