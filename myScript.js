@@ -1,8 +1,3 @@
-var person = {
-  name: 'Mate',
-  family: 'Nans',
-  fon: function (){
-    console.log(this);
-  }
-};
-person.fon();
+
+let bank=3948;
+console.log(bank);
