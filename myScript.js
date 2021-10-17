@@ -1,3 +1,13 @@
-
-let bank=3948;
-console.log(bank);
+"use strict";
+let message;
+message="Hello world";
+console.log(message);
+const zen=(undefined);
+console.log(zen);
+console.log(typeof true2);
+let ner=prompt("How");
+console.log(ner);
+let fen=confirm("will you");
+let str=false;
+str=Number(str);
+console.log( str);
